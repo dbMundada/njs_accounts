@@ -25,6 +25,9 @@ export const deleteUser = (id: number) => {
   return del(`/users/${id}`);
 };
 
+
+getUsers();
+deleteUser(1234123);
 /*
 MethodFullname for {get, put, post, del} are
     "sample/axiosInstance.ts::program:get",
@@ -36,4 +39,4 @@ but expected
     "axios:axios:create:<returnValue>:post",
     "axios:axios:create:<returnValue>:put",
     "axios:axios:create:<returnValue>:delete"
-/*
+*/
