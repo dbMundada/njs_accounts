@@ -1,0 +1,377 @@
+[
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 199,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', event, {\n    id: product.id,\n    name: product.name,\n    currency,\n    price,\n    value: price,\n    category,\n    list: logLocation,\n    items: [\n      {\n        item_id: product.id,\n        item_name: product.name,\n        price: product.base_price,\n        discount: product.sale_price ?? 0,\n        item_category: product.categories.length > 0\n        ? product.categories[product.categories.length - 1].name\n        : '',\n        location_id: product.fulfillment_retailer_store_id,\n        quantity: product.base_quantity,\n        item_list_id: cart?.id,\n      }\n    ]\n  })",
+        "arguments": {
+            "event": "event",
+            "id": "product.id",
+            "name": "product.name",
+            "currency": "currency",
+            "price": "price",
+            "value": "price",
+            "category": "category",
+            "list": "logLocation",
+            "items.": "__ecma.Array.factory()",
+            "items.[].item_id": "product.id",
+            "items.[].item_name": "product.name",
+            "items.[].price": "product.base_price",
+            "items.[].discount": "product.sale_price ?? 0",
+            "items.[].item_category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\"",
+            "items.[].location_id": "product.fulfillment_retailer_store_id",
+            "items.[].quantity": "product.base_quantity",
+            "items.[].item_list_id": "cart.id"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 196,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferClick.event,\n    ...googlePayloads.logOfferClick.payload({ offer, location, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"offerClick\"",
+            "ecommerce.click.actionField.list": "location",
+            "ecommerce.click.offers.": "__ecma.Array.factory()",
+            "ecommerce.click.offers.[].id": "offer.id",
+            "ecommerce.click.offers.[].name": "offer.name",
+            "ecommerce.click.promotions.": "__ecma.Array.factory()",
+            "ecommerce.click.promotions.[].id": "offer.id",
+            "ecommerce.click.promotions.[].name": "offer.name || offer.offer.name",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 21,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logPageView.event,\n    ...googlePayloads.logPageView.payload({ page, title, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"pageview\"",
+            "page": "page",
+            "title": "title",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 44,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', action, {\n    eventCategory: category,\n    eventLabel: label,\n    eventValue: value,\n  })",
+        "arguments": {
+            "event": "event",
+            "action": "__ecma.String",
+            "eventCategory": "category",
+            "eventLabel": "label",
+            "eventValue": "value"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 233,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logCheckoutCompletion.event,\n    ...googlePayloads.logCheckoutCompletion.payload({ order, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"checkoutCompletion\"",
+            "ecommerce.purchase.actionField.id": "order.id",
+            "ecommerce.purchase.actionField.revenue": "order.estimated_totals.total",
+            "ecommerce.purchase.actionField.tax": "order.estimated_totals.tax_total",
+            "ecommerce.purchase.products": "GTMProductMap(order.order_items)",
+            "ecommerce.checkout": "undefined",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 99,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductClick.event,\n    ...googlePayloads.logProductClick.payload({ product, location, extData, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"productClick\"",
+            "ecommerce.click.actionField.list": "location",
+            "ecommerce.click.products.": "__ecma.Array.factory()",
+            "ecommerce.click.products.[].price": "product.sale_price || product.base_price",
+            "ecommerce.click.products.[].category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\"",
+            "ecommerce.click.products.[].\"id\"": "product.\"id\"",
+            "ecommerce.click.products.[].\"name\"": "product.\"name\"",
+            "ecommerce.click.products.[].\"ext_id\"": "product.\"ext_id\"",
+            "ecommerce.click.products.[].pick.pick": "pick",
+            "ecommerce.click.products.[].product": "import(\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\").StoreProduct",
+            "extData": "extData",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 177,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferDetailsView.event,\n    ...googlePayloads.logOfferDetailsView.payload({ offer, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"offerDetail\"",
+            "ecommerce.detail.offers.": "__ecma.Array.factory()",
+            "ecommerce.detail.offers.[].id": "offer.id",
+            "ecommerce.detail.offers.[].name": "offer.name",
+            "ecommerce.detail.promotions.": "__ecma.Array.factory()",
+            "ecommerce.detail.promotions.[].id": "offer.id",
+            "ecommerce.detail.promotions.[].name": "offer.name",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 256,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logFirstOrder.event,\n    ...googlePayloads.logFirstOrder.payload({ preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"firstOrder\"",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 372,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'checkoutOption', {\n    step,\n    option,\n  })",
+        "arguments": {
+            "event": "\"checkoutOption\"",
+            "step": "step",
+            "option": "option"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 279,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'view_promotion', {\n    id: offer.id,\n    name: offer.name,\n    promotion_id: offer.id,\n    promotion_name: offer.name\n  })",
+        "arguments": {
+            "event": "\"view_promotion\"",
+            "id": "offer.id",
+            "name": "offer.name",
+            "promotion_id": "offer.id",
+            "promotion_name": "offer.name"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 326,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'checkout', {\n    step,\n    option,\n  })",
+        "arguments": {
+            "event": "\"checkout\"",
+            "step": "step",
+            "option": "option"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 215,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logCheckoutStep.event,\n    ...googlePayloads.logCheckoutStep.payload({ step, option, products, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"checkoutStep\"",
+            "ecommerce.checkout.actionField.step": "step",
+            "ecommerce.checkout.actionField.option": "option",
+            "ecommerce.checkout.products": "GTMProductMap(products)",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 352,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'purchase', {\n    id: order.id,\n  })",
+        "arguments": {
+            "event": "\"purchase\"",
+            "id": "order.id"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 168,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'select_item', {\n    list: location,\n    id: product.id,\n    name: product.name,\n    price: product.sale_price || product.base_price,\n    category:\n      product.categories.length > 0 ? product.categories[product.categories.length - 1].name : '',\n  })",
+        "arguments": {
+            "event": "\"select_item\"",
+            "list": "location",
+            "id": "product.id",
+            "name": "product.name",
+            "price": "product.sale_price || product.base_price",
+            "category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\""
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 23,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'page_view', {\n    page_location: page,\n    page_title: title,\n  })",
+        "arguments": {
+            "event": "\"page_view\"",
+            "page_location": "page",
+            "page_title": "title"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 302,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'select_promotion', {\n    id: offer.id,\n    name: offer.name,\n    list: location,\n    promotion_id: offer.id,\n    promotion_name: offer.name\n  })",
+        "arguments": {
+            "event": "\"select_promotion\"",
+            "id": "offer.id",
+            "name": "offer.name",
+            "list": "location",
+            "promotion_id": "offer.id",
+            "promotion_name": "offer.name"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 137,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductRemoveFromCart.event,\n    ...googlePayloads.logProductRemoveFromCart.payload({\n      product,\n      logLocation,\n      preprocessedData,\n    }),\n  })",
+        "arguments": {
+            "event": "\"productRemoveFromCart\"",
+            "ecommerce.remove.actionField.list": "logLocation",
+            "ecommerce.remove.products.": "__ecma.Array.factory()",
+            "ecommerce.remove.products.[].price": "product.sale_price || product.base_price",
+            "ecommerce.remove.products.[].category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\"",
+            "ecommerce.remove.products.[].\"id\"": "product.\"id\"",
+            "ecommerce.remove.products.[].\"name\"": "product.\"name\"",
+            "ecommerce.remove.products.[].\"ext_id\"": "product.\"ext_id\"",
+            "ecommerce.remove.products.[].pick.pick": "pick",
+            "ecommerce.remove.products.[].product": "import(\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\").StoreProduct",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 73,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'ec:addImpression', { \n    id: product.id,\n    name: product.name,\n    price: product.sale_price || product.base_price,\n    category:\n      product.categories.length > 0 ? product.categories[product.categories.length - 1].name : '',\n    list: location,\n  })",
+        "arguments": {
+            "event": "\"ec:addImpression\"",
+            "id": "product.id",
+            "name": "product.name",
+            "price": "product.sale_price || product.base_price",
+            "category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\"",
+            "list": "location"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 79,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductDetailsView.event,\n    ...googlePayloads.logProductDetailsView.payload({ product, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"productDetail\"",
+            "ecommerce.detail.products.": "__ecma.Array.factory()",
+            "ecommerce.detail.products.[].price": "product.sale_price || product.base_price",
+            "ecommerce.detail.products.[].category": "product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \"\"",
+            "ecommerce.detail.products.[].\"id\"": "product.\"id\"",
+            "ecommerce.detail.products.[].\"name\"": "product.\"name\"",
+            "ecommerce.detail.products.[].\"ext_id\"": "product.\"ext_id\"",
+            "ecommerce.detail.products.[].pick.pick": "pick",
+            "ecommerce.detail.products.[].product": "import(\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\").StoreProduct",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 118,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductAddToCart.event,\n    ...googlePayloads.logProductAddToCart.payload({ product, logLocation, productSource, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"productAddToCart\"",
+            "ecommerce.add.actionField.list": "logLocation",
+            "ecommerce.add.actionField.productSource": "productSource",
+            "ecommerce.add.products": "products",
+            "ecommerce.purchase": "undefined",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 28,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/init.js",
+        "sample": "globalThis.gtag('config', id, {\n    /** \n     * disables the built in page view event\n     * This is required in conjunction with disabling page change events in the admin portal\n     */\n    send_page_view: false  \n  })",
+        "arguments": {
+            "event": "",
+            "\"config\"": "\"config\"",
+            "id": "ANY",
+            "send_page_view": "false"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 61,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductImpression.event,\n    ...googlePayloads.logProductImpression.payload({ product, location, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"productImpressions\"",
+            "ecommerce.impressions.": "__ecma.Array.factory()",
+            "ecommerce.impressions.[].price": "product.sale_price || product.base_price",
+            "ecommerce.impressions.[].category": "product.categories?.length > 0 ? product.categories[product.categories?.length - 1].name : \"\"",
+            "ecommerce.impressions.[].list": "location",
+            "ecommerce.impressions.[].\"id\"": "product.\"id\"",
+            "ecommerce.impressions.[].\"name\"": "product.\"name\"",
+            "ecommerce.impressions.[].\"ext_id\"": "product.\"ext_id\"",
+            "ecommerce.impressions.[].pick.pick": "pick",
+            "ecommerce.impressions.[].product": "import(\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\").StoreProduct",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 150,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'view_item', parameters)",
+        "arguments": {
+            "event": "\"view_item\"",
+            "parameters.currency": "currency",
+            "parameters.value": "value",
+            "parameters.items": "items"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 42,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logEvent.event,\n    ...googlePayloads.logEvent.payload({ category, action, label, value, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"logEvent\"",
+            "eventCategory": "category",
+            "eventAction": "action",
+            "eventLabel": "label",
+            "eventValue": "value",
+            "preprocessedData.x": "x"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 260,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'ec:addImpression', {\n    id: offer.id,\n    name: offer.name,\n    list: location,\n  })",
+        "arguments": {
+            "event": "\"ec:addImpression\"",
+            "id": "offer.id",
+            "name": "offer.name",
+            "list": "location"
+        }
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 159,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferImpression.event,\n    ...googlePayloads.logOfferImpression.payload({ offer, preprocessedData }),\n  })",
+        "arguments": {
+            "event": "\"offerImpressions\"",
+            "ecommerce.promoView.offers.": "__ecma.Array.factory()",
+            "ecommerce.promoView.offers.[].id": "offer.id",
+            "ecommerce.promoView.offers.[].name": "offer.name || offer.offer.name",
+            "ecommerce.promoView.promotions.": "__ecma.Array.factory()",
+            "ecommerce.promoView.promotions.[].id": "offer.id",
+            "ecommerce.promoView.promotions.[].name": "offer.name || offer.offer.name",
+            "preprocessedData.x": "x"
+        }
+    }
+]

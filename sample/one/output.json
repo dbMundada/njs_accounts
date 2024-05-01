@@ -1,0 +1,64 @@
+{
+    "sinkId" : "ThirdParties.SDK.Pixel.Google.TagManager",
+    "occurrences" : [
+      {
+        "sample" : "globalThis.dataLayer.push({ /* <=== globalThis */ \n        event: googlePayloads.logProductImpression.event,\n        nestedKey: {\n            nested1: \"N1\",\n            nestedDeep: {\n                nestedDeep1: \"N1.11\"\n            }\n        },\n        latitude: obj.latitude,\n        testPayload: googlePayloads.logProductImpression.payload({}),\n        ...products\n    })",
+        "lineNumber" : 20,
+        "columnNumber" : 4,
+        "fileName" : "index.ts",
+        "excerpt" : "            q1: \"q1\"\n        },\n        p2: \"p2\"\n    };\n    if (!step || !products) return\n    globalThis.dataLayer.push({ /* <=== globalThis */  /* <=== globalThis */ \n        event: googlePayloads.logProductImpression.event,\n        nestedKey: {\n            nested1: \"N1\",\n            nestedDeep: {\n                nestedDeep1: \"N1.11\"",
+        "arguments" : {
+          "nestedKey.nested1" : "\"N1\"",
+          "latitude" : "obj.latitude",
+          ".payload.ecommerce.impressions.[].list" : "location",
+          ".payload.ecommerce.impressions.[].category" : "product.categories?.length > 0 ? product.categories[product.categories?.length - 1].name : \"\"",
+          ".payload.product.types" : "types",
+          ".payload.\"id\"" : "product.\"id\"",
+          ".payload.ecommerce.impressions.[].price" : "product.sale_price || product.base_price",
+          "nestedKey.nestedDeep.nestedDeep1" : "\"N1.11\"",
+          ".payload.preprocessedData.types" : "types",
+          ".payload.\"ext_id\"" : "product.\"ext_id\"",
+          "event" : "googlePayloads.logProductImpression.event",
+          ".payload.ecommerce.impressions." : "__ecma.Array.factory()",
+          ".payload.event" : "\"productImpressions\"",
+          "products" : "ANY",
+          "testPayload" : "googlePayloads.logProductImpression.payload({})",
+          ".payload.pick.lodash" : "lodash",
+          ".payload.\"ic_product_id\"" : "product.\"ic_product_id\"",
+          ".payload.\"name\"" : "product.\"name\""
+        }
+      }
+    ]
+  },
+  {
+    "sinkId" : "ThirdParties.SDK.Google.TagManagerPixel",
+    "occurrences" : [
+      {
+        "sample" : "globalThis.dataLayer.push({ /* <=== globalThis */ \n        event: googlePayloads.logProductImpression.event,\n        nestedKey: {\n            nested1: \"N1\",\n            nestedDeep: {\n                nestedDeep1: \"N1.11\"\n            }\n        },\n        latitude: obj.latitude,\n        testPayload: googlePayloads.logProductImpression.payload({}),\n        ...products\n    })",
+        "lineNumber" : 20,
+        "columnNumber" : 4,
+        "fileName" : "index.ts",
+        "excerpt" : "            q1: \"q1\"\n        },\n        p2: \"p2\"\n    };\n    if (!step || !products) return\n    globalThis.dataLayer.push({ /* <=== globalThis */  /* <=== globalThis */ \n        event: googlePayloads.logProductImpression.event,\n        nestedKey: {\n            nested1: \"N1\",\n            nestedDeep: {\n                nestedDeep1: \"N1.11\"",
+        "arguments" : {
+          "nestedKey.nested1" : "\"N1\"",
+          "latitude" : "obj.latitude",
+          ".payload.ecommerce.impressions.[].list" : "location",
+          ".payload.ecommerce.impressions.[].category" : "product.categories?.length > 0 ? product.categories[product.categories?.length - 1].name : \"\"",
+          ".payload.product.types" : "types",
+          ".payload.\"id\"" : "product.\"id\"",
+          ".payload.ecommerce.impressions.[].price" : "product.sale_price || product.base_price",
+          "nestedKey.nestedDeep.nestedDeep1" : "\"N1.11\"",
+          ".payload.preprocessedData.types" : "types",
+          ".payload.\"ext_id\"" : "product.\"ext_id\"",
+          "event" : "googlePayloads.logProductImpression.event",
+          ".payload.ecommerce.impressions." : "__ecma.Array.factory()",
+          ".payload.event" : "\"productImpressions\"",
+          "products" : "ANY",
+          "testPayload" : "googlePayloads.logProductImpression.payload({})",
+          ".payload.pick.lodash" : "lodash",
+          ".payload.\"ic_product_id\"" : "product.\"ic_product_id\"",
+          ".payload.\"name\"" : "product.\"name\""
+        }
+      }
+    ]
+  }

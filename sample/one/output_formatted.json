@@ -1,0 +1,906 @@
+[
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 37,
+        "fileName": "app/react/components/multiProductModal/CollectionModal.tsx",
+        "sample": "logSegmentEvent({\n          name: 'store.view_collection',\n          segmentArgs: {\n            description: data.description,\n            id: data.id,\n            item_count: data.items.length,\n            name: data.name,\n            source: location,\n          },\n        })",
+        "arguments": "{\"segmentArgs.description\":\"data.description\",\"segmentArgs.id\":\"data.id\",\"segmentArgs.item_count\":\"data.items.length\",\"segmentArgs.name\":\"data.name\",\"segmentArgs.source\":\"location\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.view_collection\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 85,
+        "fileName": "app/react/SocialSignOn.tsx",
+        "sample": "logSegmentEvent({\n        name: 'rx.sso_session_invalid',\n        segmentArgs: {\n          rxSession,\n          success: false,\n        },\n      })",
+        "arguments": "{\"segmentArgs.rxSession\":\"rxSession\",\"segmentArgs.success\":\"false\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"rx.sso_session_invalid\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 34,
+        "fileName": "app/react/components/multiProductModal/MultiProductModalContainer.tsx",
+        "sample": "logSegmentEvent({\n          name: 'store.view_multi_products',\n          segmentArgs: {\n            item_count: data.length,\n            source: location,\n          },\n        })",
+        "arguments": "{\"segmentArgs.item_count\":\"data.length\",\"segmentArgs.source\":\"location\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.view_multi_products\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 68,
+        "fileName": "widgets/enterprise-checkout-widgets/src/liveOrders/connectLiveOrderTile.tsx",
+        "sample": "logSegmentEvent({\n            name: SEGMENT_EVENTS.CHAT_MESSAGE_RECEIVED,\n            segmentArgs: {\n              messages: chatMessagesResp,\n            },\n          })",
+        "arguments": "{\"segmentArgs.messages\":\"chatMessagesResp\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "SEGMENT_EVENTS.CHAT_MESSAGE_RECEIVED"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 73,
+        "fileName": "app/react/components/headerDesktop/bottomRow/DropdownAllDepartments.tsx",
+        "sample": "logSegmentEvent({\n                        name: 'store.categories_menu',\n                        segmentArgs: {\n                          category_id: link.id,\n                          department_name: link.text,\n                          type: analyticsCategory,\n                        },\n                      })",
+        "arguments": "{\"segmentArgs.category_id\":\"link.id\",\"segmentArgs.department_name\":\"link.text\",\"segmentArgs.type\":\"analyticsCategory\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.categories_menu\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 33,
+        "fileName": "widgets/enterprise-checkout-widgets/src/liveOrders/CateringLiveOrderTile.tsx",
+        "sample": "logSegmentEvent({\n        name: SEGMENT_EVENTS.ORDER_LOADED,\n        segmentArgs: {\n          order: updatedOrder,\n        },\n      })",
+        "arguments": "{\"segmentArgs.order\":\"updatedOrder\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "SEGMENT_EVENTS.ORDER_LOADED"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 31,
+        "fileName": "app/react/pages/CustomPage.tsx",
+        "sample": "logSegmentEvent({\n        name: 'store.campaignpage_view',\n        segmentArgs: {\n          url_slug: slug,\n        },\n      })",
+        "arguments": "{\"segmentArgs.url_slug\":\"slug\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.campaignpage_view\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 53,
+        "fileName": "widgets/enterprise-core/src/utils/performance/customPerformanceTimer.ts",
+        "sample": "logSegmentEvent({\n            name: `performance.${name}`,\n            segmentArgs: {\n              cold_start: !routeChanged,\n              time: measure.duration,\n            },\n          })",
+        "arguments": "{\"segmentArgs.cold_start\":\"!routeChanged\",\"segmentArgs.time\":\"measure.duration\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"performance.name, \""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 28,
+        "fileName": "widgets/enterprise-core/src/externalAuth/externalOAuth2.ts",
+        "sample": "logSegmentEvent({\n        name: 'user.sso_redirect',\n        segmentArgs: {},\n      })",
+        "arguments": "{\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"user.sso_redirect\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 134,
+        "fileName": "app/react/common/hooks/useSaveForLater.ts",
+        "sample": "logSegmentEvent({\n                name: 'store.save_for_later',\n                segmentArgs: {\n                  list_name: list.title,\n                  product_id: product.id,\n                  ...analytics,\n                },\n              })",
+        "arguments": "{\"segmentArgs.list_name\":\"list.title\",\"segmentArgs.product_id\":\"product.id\",\"segmentArgs.analytics\":\"{ unataComponentVariant?: __ecma.String; unataParentComponentVariant?: __ecma.String; }\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.save_for_later\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 270,
+        "fileName": "app/react/components/headerDesktop/bottomRow/HeaderBottomRowDesktop.tsx",
+        "sample": "logSegmentEvent({\n                            name: 'store.categories_menu',\n                            segmentArgs: {\n                              category_id: link.id,\n                              department_name: link.text,\n                              type: cfg.analyticsCategory,\n                            },\n                          })",
+        "arguments": "{\"segmentArgs.category_id\":\"link.id\",\"segmentArgs.department_name\":\"link.text\",\"segmentArgs.type\":\"cfg.analyticsCategory\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.categories_menu\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 157,
+        "fileName": "widgets/enterprise-checkout-widgets/src/liveOrders/liveOrderTile.tsx",
+        "sample": "logSegmentEvent({\n          name: `${SEGMENT_EVENTS.BUTTON_CLICK}.${orderAction.key}`,\n          segmentArgs: {\n            action: orderAction,\n          },\n        })",
+        "arguments": "{\"segmentArgs.action\":\"orderAction\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "SEGMENT_EVENTS.BUTTON_CLICK.orderAction.key"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 84,
+        "fileName": "app/react/components/miniCart/MiniCartSuggestionSection.tsx",
+        "sample": "logSegmentEvent({\n          name: 'cart.suggestions.shown_product',\n          segmentArgs: {\n            product: { ...product, position },\n          },\n        })",
+        "arguments": "{\"segmentArgs.product.position\":\"position\",\"segmentArgs.product.product.product\":\"product\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"cart.suggestions.shown_product\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 65,
+        "fileName": "app/react/components/miniCart/MiniCartSuggestionSection.tsx",
+        "sample": "logSegmentEvent({\n          name: 'cart.suggestions.suggested_products',\n          segmentArgs: {\n            products: complementaryItems.map((p, i) => ({ ...p, position: i + 1 })),\n          },\n        })",
+        "arguments": "{\"segmentArgs.products\":\"complementaryItems.map((p, i) => ({ ...p, position: i + 1 }))\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"cart.suggestions.suggested_products\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 168,
+        "fileName": "app/react/common/hooks/useSaveForLater.ts",
+        "sample": "logSegmentEvent({\n              name: 'store.save_for_later',\n              segmentArgs: {\n                list_name: list.name,\n                product_id: product.id,\n                ...analytics,\n              },\n            })",
+        "arguments": "{\"segmentArgs.list_name\":\"list.name\",\"segmentArgs.product_id\":\"product.id\",\"segmentArgs.analytics\":\"{ unataComponentVariant?: __ecma.String; unataParentComponentVariant?: __ecma.String; }\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.save_for_later\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 75,
+        "fileName": "app/react/SocialSignOn.tsx",
+        "sample": "logSegmentEvent({\n        name: 'rx.sso_session',\n        segmentArgs: {\n          isRxSessionValid,\n          rxSession,\n        },\n      })",
+        "arguments": "{\"segmentArgs.isRxSessionValid\":\"isRxSessionValid\",\"segmentArgs.rxSession\":\"rxSession\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"rx.sso_session\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 46,
+        "fileName": "widgets/enterprise-checkout-widgets/src/liveOrders/connectLiveOrderTile.tsx",
+        "sample": "logSegmentEvent({\n        name: SEGMENT_EVENTS.ORDER_LOADED,\n        segmentArgs: {\n          order: updatedOrder,\n        },\n      })",
+        "arguments": "{\"segmentArgs.order\":\"updatedOrder\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "SEGMENT_EVENTS.ORDER_LOADED"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 363,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { extData, location, meta: service.analyticsMeta, product },\n          event: 'click',\n          subject: 'product',\n        })",
+        "arguments": "{\"data.extData\":\"extData\",\"data.location\":\"location\",\"data.meta\":\"service.analyticsMeta\",\"data.product\":\"product\",\"subject\":\"\\\"product\\\"\"}",
+        "event": "\"click\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 332,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { location, meta: service.analyticsMeta, product, unataComponentVariant },\n          event: 'impression',\n          subject: 'product',\n        })",
+        "arguments": "{\"data.location\":\"location\",\"data.meta\":\"service.analyticsMeta\",\"data.product\":\"product\",\"data.unataComponentVariant\":\"unataComponentVariant\",\"subject\":\"\\\"product\\\"\"}",
+        "event": "\"impression\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 161,
+        "fileName": "app/angular/services/modules/express.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                name: 'express.view_payment',\n                segmentArgs: {\n                  placement_name: ExpressPlacements.NEW_FIRST_LOGIN,\n                  source: window.location.pathname,\n                },\n              })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.NEW_FIRST_LOGIN\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 65,
+        "fileName": "app/react/components/icExpress/ExpressGiftCardRedeemModal/views/ExpressGiftCardRedeemFormView.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.redeem_coupon',\n        segmentArgs: {\n          placement_name: referer,\n          source: window.location.pathname,\n          success: false,\n          token: tokenValue,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"false\",\"segmentArgs.token\":\"tokenValue\"}",
+        "event": "\"express.redeem_coupon\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 152,
+        "fileName": "app/react/components/headerBanners/HeaderBanners.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.view_placement',\n        segmentArgs: {\n          placement_name: ExpressPlacements.STICKY_HEADER,\n          source: window.location.pathname,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.STICKY_HEADER\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 42,
+        "fileName": "app/react/components/categories/CategoryCard.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'store.shop_by_aisle',\n      segmentArgs: {\n        department_id: id,\n        department_name: name,\n        isRecipe,\n      },\n    })",
+        "arguments": "{\"segmentArgs.department_id\":\"id\",\"segmentArgs.department_name\":\"name\",\"segmentArgs.isRecipe\":\"isRecipe\"}",
+        "event": "\"store.shop_by_aisle\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 142,
+        "fileName": "app/angular/services/modules/express.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n          name: 'express.view_placement',\n          segmentArgs: {\n            placement_name: ExpressPlacements.NEW_FIRST_LOGIN,\n            source: window.location.pathname,\n          },\n        })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.NEW_FIRST_LOGIN\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 197,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { action, category, label, meta: service.analyticsMeta, value },\n          event: 'event',\n        })",
+        "arguments": "{\"data.action\":\"action\",\"data.category\":\"category\",\"data.label\":\"label\",\"data.meta\":\"service.analyticsMeta\",\"data.value\":\"value\"}",
+        "event": "\"event\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 473,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, option, step },\n          event: 'checkout',\n          subject: 'option',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.option\":\"option\",\"data.step\":\"step\",\"subject\":\"\\\"option\\\"\"}",
+        "event": "\"checkout\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 216,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: {\n            segmentData: { page, segmentArgs: newArgs, userInfo },\n            segmentName: name,\n          },\n          event: 'event',\n        })",
+        "arguments": "{\"data.segmentData.page\":\"page\",\"data.segmentData.segmentArgs\":\"newArgs\",\"data.segmentData.userInfo\":\"userInfo\",\"data.segmentName\":\"name\"}",
+        "event": "\"event\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 384,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: {\n            logLocation,\n            productSource,\n            contextIntent,\n            meta: service.analyticsMeta,\n            product,\n            unataComponentVariant,\n            unataParentComponentVariant,\n            cart,\n            store,\n          },\n          event: 'add',\n          subject: 'product',\n        })",
+        "arguments": "{\"data.logLocation\":\"logLocation\",\"data.productSource\":\"productSource\",\"data.contextIntent\":\"contextIntent\",\"data.meta\":\"service.analyticsMeta\",\"data.product\":\"product\",\"data.unataComponentVariant\":\"unataComponentVariant\",\"data.unataParentComponentVariant\":\"unataParentComponentVariant\",\"data.cart\":\"cart\",\"data.store\":\"store\",\"subject\":\"\\\"product\\\"\"}",
+        "event": "\"add\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 503,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, results, term },\n          event: 'search',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.results\":\"results\",\"data.term\":\"term\"}",
+        "event": "\"search\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 486,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, order: orderPayload },\n          event: 'checkout',\n          subject: 'completion',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.order\":\"orderPayload\",\"subject\":\"\\\"completion\\\"\"}",
+        "event": "\"checkout\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 9,
+        "fileName": "app/react/components/associatedStoresToggle/analytics.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n    name: isAlcoholBanner ? 'store.click_alcohol_storefront' : 'store.click_grocery_storefront',\n    segmentArgs: {},\n  })",
+        "arguments": "{\"segmentArgs\":\"{}\"}",
+        "event": "isAlcoholBanner ? \"store.click_alcohol_storefront\" : \"store.click_grocery_storefront\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 183,
+        "fileName": "app/react/pages/preCheckout/RequestAdapter.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'pre_checkout.show_upsell_recommendations',\n      segmentArgs: {\n        requested_items: items.map(item => item.product_id),\n        response_recommendations_count: response.items?.length,\n      },\n    })",
+        "arguments": "{\"segmentArgs.requested_items\":\"items.map(item => item.product_id)\",\"segmentArgs.response_recommendations_count\":\"response.items.length\"}",
+        "event": "\"pre_checkout.show_upsell_recommendations\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 432,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { location, meta: service.analyticsMeta, offer },\n          event: 'impression',\n          subject: 'offer',\n        })",
+        "arguments": "{\"data.location\":\"location\",\"data.meta\":\"service.analyticsMeta\",\"data.offer\":\"offer\",\"subject\":\"\\\"offer\\\"\"}",
+        "event": "\"impression\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 495,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, recipe },\n          event: 'detail',\n          subject: 'recipe',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.recipe\":\"recipe\",\"subject\":\"\\\"recipe\\\"\"}",
+        "event": "\"detail\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 74,
+        "fileName": "packages/enterprise-user-menu/IcExpressPopover.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'express.view_placement',\n      segmentArgs: {\n        placement_name: ExpressPlacements.POPOVER,\n        source: window.location.pathname,\n      },\n    })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.POPOVER\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 138,
+        "fileName": "packages/enterprise-user-menu/UserMenuLinks.tsx",
+        "sample": "analyticsService.log({\n      event: 'event',\n      data: { category: 'nav user dropdown link', action: 'click', label: item.label },\n    })",
+        "arguments": "{\"data.category\":\"\\\"nav user dropdown link\\\"\",\"data.action\":\"\\\"click\\\"\",\"data.label\":\"item.label\"}",
+        "event": "\"event\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 73,
+        "fileName": "widgets/enterprise-core/src/utils/waitOneTrust.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'store.cookie_settings',\n        segmentArgs: {\n          groups,\n          is_opt_out: !groups.length,\n        },\n      })",
+        "arguments": "{\"segmentArgs.groups\":\"groups\",\"segmentArgs.is_opt_out\":\"!groups.length\"}",
+        "event": "\"store.cookie_settings\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 440,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, offer },\n          event: 'detail',\n          subject: 'offer',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.offer\":\"offer\",\"subject\":\"\\\"offer\\\"\"}",
+        "event": "\"detail\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 123,
+        "fileName": "packages/enterprise-user-menu/UserMenuLinks.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.view_placement',\n        segmentArgs: {\n          placement_name: ExpressPlacements.USER_DROPDOWN,\n          source: window.location.pathname,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.USER_DROPDOWN\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 130,
+        "fileName": "app/react/components/headerBanners/HeaderBanner.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.click_button',\n        segmentArgs: {\n          name: lang.close,\n          placement_name: ExpressPlacements.STICKY_HEADER,\n          source: window.location.pathname,\n          success: true,\n        },\n      })",
+        "arguments": "{\"segmentArgs.name\":\"lang.close\",\"segmentArgs.placement_name\":\"ExpressPlacements.STICKY_HEADER\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.click_button\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 239,
+        "fileName": "app/angular/optionalComponents/stripe/stripePaymentForm.controller.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n            name: 'express.add_payment',\n            segmentArgs: {\n              placement_name: $stateParams.referer,\n              source: window.location.pathname,\n              success: false,\n            },\n          })",
+        "arguments": "{\"segmentArgs.placement_name\":\"$stateParams.referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"false\"}",
+        "event": "\"express.add_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 86,
+        "fileName": "packages/enterprise-user-menu/IcExpressPopover.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'express.click_button',\n      segmentArgs: {\n        name: label,\n        placement_name: ExpressPlacements.POPOVER,\n        source: window.location.pathname,\n        success: true,\n      },\n    })",
+        "arguments": "{\"segmentArgs.name\":\"label\",\"segmentArgs.placement_name\":\"ExpressPlacements.POPOVER\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.click_button\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 256,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                name: EVENTS.CART.CHECKOUT_CLICK,\n                segmentArgs: {\n                  source: window.location.pathname,\n                },\n              })",
+        "arguments": "{\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "EVENTS.CART.CHECKOUT_CLICK"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 210,
+        "fileName": "app/angular/optionalComponents/stripe/stripePaymentForm.controller.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n            name: 'express.add_payment',\n            segmentArgs: {\n              placement_name: $stateParams.referer,\n              source: window.location.pathname,\n              success: true,\n            },\n          })",
+        "arguments": "{\"segmentArgs.placement_name\":\"$stateParams.referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.add_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 127,
+        "fileName": "app/react/components/payments/Stripe/StripeFormContext.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n            name: 'express.add_payment',\n            segmentArgs: {\n              placement_name: referer,\n              source: window.location.pathname,\n              success: false,\n            },\n          })",
+        "arguments": "{\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"false\"}",
+        "event": "\"express.add_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 70,
+        "fileName": "widgets/enterprise-core/src/express/thunks.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'express.update_subscription',\n      segmentArgs: {\n        autorenew: body.autorenew,\n        cancelled: body.cancel,\n        credit_card_updated: 'credit_card_id' in body,\n        email_reminder: body.send_reminder_email === 'true',\n        next_id: body.next_subsription_plan_id,\n        placement_name: referer,\n        previous_id: body.subscription_plan_id,\n        source: window.location.pathname,\n        success: true,\n      },\n    })",
+        "arguments": "{\"segmentArgs.autorenew\":\"body.autorenew\",\"segmentArgs.cancelled\":\"body.cancel\",\"segmentArgs.credit_card_updated\":\"'credit_card_id' in body\",\"segmentArgs.email_reminder\":\"body.send_reminder_email === 'true'\",\"segmentArgs.next_id\":\"body.next_subsription_plan_id\",\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.previous_id\":\"body.subscription_plan_id\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.update_subscription\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 117,
+        "fileName": "app/react/components/payments/Stripe/StripeFormContext.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n            name: 'express.add_payment',\n            segmentArgs: {\n              placement_name: referer,\n              source: window.location.pathname,\n              success: true,\n            },\n          })",
+        "arguments": "{\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.add_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 219,
+        "fileName": "app/angular/components/icExpress/icExpressEntry/icExpressEntry.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.view_payment',\n        segmentArgs: {\n          placement_name: this.$stateParams.referer,\n          source: window.location.pathname,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"this.$stateParams.referer\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_payment\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 17,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/Segment/functions.js",
+        "sample": "segmentPayloads.identify(globalThis.analytics.identify, { identifiableID })",
+        "arguments": "{\"identifiableID\":\"identifiableID\"}",
+        "event": "identify"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 351,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, product, unataComponentVariant },\n          event: 'detail',\n          subject: 'product',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.product\":\"product\",\"data.unataComponentVariant\":\"unataComponentVariant\",\"subject\":\"\\\"product\\\"\"}",
+        "event": "\"detail\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 127,
+        "fileName": "app/angular/components/account/nav/accountMenuService.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                name: 'express.click_placement',\n                segmentArgs: {\n                  placement_name: ExpressPlacements.PROFILE,\n                  source: window.location.pathname,\n                },\n              })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.PROFILE\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.click_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 48,
+        "fileName": "widgets/enterprise-core/src/express/thunks.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.purchase_subscription',\n        segmentArgs: {\n          id: null,\n          name: null,\n          placement_name: referer,\n          source: window.location.pathname,\n          success: false,\n        },\n      })",
+        "arguments": "{\"segmentArgs.id\":\"null\",\"segmentArgs.name\":\"null\",\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"false\"}",
+        "event": "\"express.purchase_subscription\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 51,
+        "fileName": "app/react/components/icExpress/ExpressGiftCardRedeemModal/views/ExpressGiftCardRedeemFormView.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.redeem_coupon',\n        segmentArgs: {\n          placement_name: referer,\n          source: window.location.pathname,\n          success: true,\n          token: tokenValue,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\",\"segmentArgs.token\":\"tokenValue\"}",
+        "event": "\"express.redeem_coupon\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 471,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                name: 'express.view_placement',\n                segmentArgs: {\n                  placement_name: ExpressPlacements.SIDECART,\n                  source: window.location.pathname,\n                },\n              })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.SIDECART\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 218,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                  name: EVENTS.CART.CHECKOUT_CLICK,\n                  segmentArgs: {\n                    source: window.location.pathname,\n                  },\n                })",
+        "arguments": "{\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "EVENTS.CART.CHECKOUT_CLICK"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 30,
+        "fileName": "widgets/enterprise-core/src/express/thunks.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.purchase_subscription',\n        segmentArgs: {\n          id: subscription?.id,\n          name: subscription?.subscription_plan?.description,\n          placement_name: referer,\n          source: window.location.pathname,\n          success: true,\n        },\n      })",
+        "arguments": "{\"segmentArgs.id\":\"subscription.id\",\"segmentArgs.name\":\"subscription.subscription_plan.description\",\"segmentArgs.placement_name\":\"referer\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.purchase_subscription\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 100,
+        "fileName": "app/angular/services/modules/sideCart.service.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n          name: EVENTS.CART.VIEW,\n          segmentArgs: {\n            source: window.location.pathname,\n          },\n        })",
+        "arguments": "{\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "EVENTS.CART.VIEW"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 510,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({ data: { meta: service.analyticsMeta }, event: 'login' })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\"}",
+        "event": "\"login\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 357,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n              name: 'express.click_button',\n              segmentArgs: {\n                name: label,\n                placement_name: ExpressPlacements.SIDECART,\n                source: window.location.pathname,\n                success: true,\n              },\n            })",
+        "arguments": "{\"segmentArgs.name\":\"label\",\"segmentArgs.placement_name\":\"ExpressPlacements.SIDECART\",\"segmentArgs.source\":\"window.location.pathname\",\"segmentArgs.success\":\"true\"}",
+        "event": "\"express.click_button\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 154,
+        "fileName": "packages/enterprise-user-menu/UserMenuLinks.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'express.click_placement',\n      segmentArgs: {\n        placement_name: ExpressPlacements.USER_DROPDOWN,\n        source: window.location.pathname,\n      },\n    })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.USER_DROPDOWN\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.click_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 465,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { meta: service.analyticsMeta, option, products, step },\n          event: 'checkout',\n          subject: 'step',\n        })",
+        "arguments": "{\"data.meta\":\"service.analyticsMeta\",\"data.option\":\"option\",\"data.products\":\"products\",\"data.step\":\"step\",\"subject\":\"\\\"step\\\"\"}",
+        "event": "\"checkout\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 180,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { page, segmentData, title },\n          event: 'pageview',\n        })",
+        "arguments": "{\"data.page\":\"page\",\"data.segmentData\":\"segmentData\",\"data.title\":\"title\"}",
+        "event": "\"pageview\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 49,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/shopping-list/cart/analytics.ts",
+        "sample": "feAnalytics.log({\n    event: 'event',\n    data: { segmentData: { segmentArgs, userInfo: payload.userInfo }, segmentName: event },\n  })",
+        "arguments": "{\"data.segmentData.segmentArgs\":\"segmentArgs\",\"data.segmentData.userInfo\":\"payload.userInfo\",\"data.segmentName\":\"event\"}",
+        "event": "\"event\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 415,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: {\n            logLocation,\n            meta: service.analyticsMeta,\n            product,\n            unataComponentVariant,\n            unataParentComponentVariant,\n            cart,\n            store,\n          },\n          event: 'remove',\n          subject: 'product',\n        })",
+        "arguments": "{\"data.logLocation\":\"logLocation\",\"data.meta\":\"service.analyticsMeta\",\"data.product\":\"product\",\"data.unataComponentVariant\":\"unataComponentVariant\",\"data.unataParentComponentVariant\":\"unataParentComponentVariant\",\"data.cart\":\"cart\",\"data.store\":\"store\",\"subject\":\"\\\"product\\\"\"}",
+        "event": "\"remove\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 36,
+        "fileName": "app/angular/components/icExpress/icExpressSignin/icExpressSignin.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n      name: 'express.view_placement',\n      segmentArgs: {\n        placement_name: ExpressPlacements.SIGNIN,\n        source: window.location.pathname,\n      },\n    })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.SIGNIN\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 66,
+        "fileName": "app/react/common/hooks/useOnSearchSubmit.ts",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'search.search',\n        segmentArgs: segmentPayload,\n      })",
+        "arguments": "{\"segmentArgs\":\"segmentPayload\"}",
+        "event": "\"search.search\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 448,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { location, meta: service.analyticsMeta, offer },\n          event: 'click',\n          subject: 'offer',\n        })",
+        "arguments": "{\"data.location\":\"location\",\"data.meta\":\"service.analyticsMeta\",\"data.offer\":\"offer\",\"subject\":\"\\\"offer\\\"\"}",
+        "event": "\"click\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 456,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: { cart, meta: service.analyticsMeta },\n          event: 'checkout',\n          subject: 'start',\n        })",
+        "arguments": "{\"data.cart\":\"cart\",\"data.meta\":\"service.analyticsMeta\",\"subject\":\"\\\"start\\\"\"}",
+        "event": "\"checkout\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 173,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n                name: 'pre_checkout.get_upsell_recommendations',\n                segmentArgs: {\n                  requested_items: itemProductIds,\n                  requested_location_code: locationCode,\n                  requested_recommendations_count: 10 * 3,\n                  response_recommendations_count: numberOfRecommendations,\n                  minimum_recommendations_count: minimum,\n                  authentication_flow: authenticationFlow,\n                },\n              })",
+        "arguments": "{\"segmentArgs.requested_items\":\"itemProductIds\",\"segmentArgs.requested_location_code\":\"locationCode\",\"segmentArgs.requested_recommendations_count\":\"10 * 3\",\"segmentArgs.response_recommendations_count\":\"numberOfRecommendations\",\"segmentArgs.minimum_recommendations_count\":\"minimum\",\"segmentArgs.authentication_flow\":\"authenticationFlow\"}",
+        "event": "\"pre_checkout.get_upsell_recommendations\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 116,
+        "fileName": "app/react/components/headerBanners/HeaderBanner.tsx",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n        name: 'express.click_placement',\n        segmentArgs: {\n          placement_name: ExpressPlacements.STICKY_HEADER,\n          source: window.location.pathname,\n        },\n      })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.STICKY_HEADER\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.click_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 45,
+        "fileName": "app/angular/components/account/nav/accountNavController.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n          name: 'express.view_placement',\n          segmentArgs: {\n            placement_name: ExpressPlacements.PROFILE,\n            source: window.location.pathname,\n          },\n        })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.PROFILE\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.view_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 370,
+        "fileName": "app/angular/components/sideCart/sideCart.js",
+        "sample": "eventEmitter.emit(EVENT_TYPES.LOG_SEGMENT_EVENT, {\n              name: 'express.click_placement',\n              segmentArgs: {\n                placement_name: ExpressPlacements.SIDECART,\n                source: window.location.pathname,\n              },\n            })",
+        "arguments": "{\"segmentArgs.placement_name\":\"ExpressPlacements.SIDECART\",\"segmentArgs.source\":\"window.location.pathname\"}",
+        "event": "\"express.click_placement\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 683,
+        "fileName": "app/angular/services/modules/analytics/analytics.js",
+        "sample": "analyticsService.log({\n          data: {\n            action: 'click',\n            category,\n            meta: service.analyticsMeta,\n            name: 'checkout_click',\n            value,\n          },\n          event: 'event',\n        })",
+        "arguments": "{\"data.action\":\"\\\"click\\\"\",\"data.category\":\"category\",\"data.meta\":\"service.analyticsMeta\",\"data.name\":\"\\\"checkout_click\\\"\",\"data.value\":\"value\"}",
+        "event": "\"event\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 31,
+        "fileName": "app/react/pages/search/SearchRecipesPage.tsx",
+        "sample": "logSegmentEvent(\n          getSearchRecipesSegmentLogEventPayload({\n            queryParams,\n            response,\n          })\n        )",
+        "arguments": "{\"segmentData.page\":\"page\",\"segmentArgs.search_results\":\"getRecipeListAnalytics(response.items, response?.snrid)\",\"segmentArgs.search_results_count\":\"response?.item_count\",\"segmentArgs.search_results_page\":\"queryParams.page\",\"segmentArgs.search_value\":\"queryParams.search_term\",\"segmentArgs.snrid\":\"response?.snrid\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "search.recipe_search_results"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 24,
+        "fileName": "app/react/pages/shop/CategoriesView.tsx",
+        "sample": "logSegmentEvent(\n        getShopViewSegmentLogEventPayload({\n          category,\n          departmentsLang: lang.departments,\n          params,\n        })\n      )",
+        "arguments": "{\"segmentData.page\":\"page\",\"segmentArgs.departmentsLang\":\"lang.departments\",\"segmentArgs.department_name\":\"category ? category.name : departmentsLang\",\"segmentArgs.department_type\":\"category?.level || category?.level === 0 ? `L${category.level + 1}` : 'L0'\",\"segmentArgs.filters.brandnames\":\"params.brand_names\",\"segmentArgs.filters.tags\":\"params.tags\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.view_department"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 29,
+        "fileName": "app/react/pages/shop/ShopProductsView.tsx",
+        "sample": "logSegmentEvent(\n          getShopViewSegmentLogEventPayload({\n            category,\n            departmentsLang: lang.departments,\n            params,\n            response,\n          })\n        )",
+        "arguments": "{\"segmentArgs.departmentsLang\":\"lang.departments\",\"segmentArgs.department_name\":\"category ? category.name : departmentsLang\",\"segmentArgs.department_type\":\"category?.level || category?.level === 0 ? `L${category.level + 1}` : 'L0'\",\"segmentArgs.filters.brandnames\":\"params.brand_names\",\"segmentArgs.filters.tags\":\"params.tags\",\"segmentArgs.products_results_count\":\"products_results.length\",\"segmentArgs.products_results_page\":\"params.page ?? 1\",\"segmentArgs.products_value\":\"category ? category.name : departmentsLang\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.view_department"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 23,
+        "fileName": "app/react/pages/shop/RecipeCategoriesView.tsx",
+        "sample": "logSegmentEvent(\n        getShopViewSegmentLogEventPayload({\n          category: currentRecipeCategory,\n          departmentsLang: lang.departments,\n          params: queryParams,\n        })\n      )",
+        "arguments": "{\"segmentArgs.departmentsLang\":\"lang.departments\",\"segmentArgs.department_name\":\"category ? category.name : departmentsLang\",\"segmentArgs.department_type\":\"category?.level || category?.level === 0 ? `L${category.level + 1}` : 'L0'\",\"segmentArgs.filters.brandnames\":\"params.brand_names\",\"segmentArgs.filters.tags\":\"params.tags\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.view_department"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 39,
+        "fileName": "app/react/pages/home/ComposableHomePage.tsx",
+        "sample": "logSegmentEvent({\n        name: 'store.homepage_view',\n        segmentArgs: getBannerSegmentPayload(),\n      })",
+        "arguments": "{\"segmentArgs.is_alcohol_storefront\":\"isAlcoholBanner\",\"segmentArgs.is_grocery_storefront\":\"!isAlcoholBanner\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "\"store.homepage_view\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 95,
+        "fileName": "app/react/components/miniCart/offer/OfferButton.tsx",
+        "sample": "logSegmentEvent(clipCouponPayload)",
+        "arguments": "{\"clipCouponPayload.offersUtils\":\"offersUtils\",\"clipCouponPayload.getAddOfferEventPayload\":\"getAddOfferEventPayload\",\"segmentArgs.card_id\":\"card_id\",\"segmentArgs.offer.clipped\":\"clipped\",\"segmentArgs.offer.completion_count\":\"completion_count\",\"segmentArgs.offer.condition\":\"condition || offerCondition\",\"segmentArgs.offer.days\":\"days\",\"segmentArgs.offer.description\":\"description\",\"segmentArgs.offer.id\":\"id\",\"segmentArgs.offer.limit_basket\":\"limit_basket\",\"segmentArgs.offer.name\":\"name || offerName\",\"segmentArgs.offer.offerReward\":\"offerReward\",\"segmentArgs.offer.promo_code\":\"promo_code\",\"segmentArgs.offer.reward\":\"offerReward ? { ...reward, ...offerReward } : reward\",\"segmentArgs.offer.source\":\"source\",\"segmentArgs.offer.terms\":\"terms\",\"segmentArgs.offer.type\":\"type || offerType\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.add_offer_sideCart"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 145,
+        "fileName": "app/react/components/offerTile/OfferTilesContainer.tsx",
+        "sample": "logSegmentEvent(clipCouponPayload)",
+        "arguments": "{\"clipCouponPayload.offersUtils\":\"offersUtils\",\"clipCouponPayload.getAddOfferEventPayload\":\"getAddOfferEventPayload\",\"segmentArgs.card_id\":\"card_id\",\"segmentArgs.offer.clipped\":\"clipped\",\"segmentArgs.offer.completion_count\":\"completion_count\",\"segmentArgs.offer.condition\":\"condition || offerCondition\",\"segmentArgs.offer.days\":\"days\",\"segmentArgs.offer.description\":\"description\",\"segmentArgs.offer.id\":\"id\",\"segmentArgs.offer.limit_basket\":\"limit_basket\",\"segmentArgs.offer.name\":\"name || offerName\",\"segmentArgs.offer.offerReward\":\"offerReward\",\"segmentArgs.offer.promo_code\":\"promo_code\",\"segmentArgs.offer.reward\":\"offerReward ? { ...reward, ...offerReward } : reward\",\"segmentArgs.offer.source\":\"source\",\"segmentArgs.offer.terms\":\"terms\",\"segmentArgs.offer.type\":\"type || offerType\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.add_offer_PDP"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 93,
+        "fileName": "app/react/components/recipeFiltersMobileModal/RecipeFiltersMobileModalContent.tsx",
+        "sample": "logSegmentEvent(payload)",
+        "arguments": "{\"segmentArgs.filters\":\"segmentFilters\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.select_filter"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 123,
+        "fileName": "app/react/components/filtersMobileModal/FiltersMobileModalContent.tsx",
+        "sample": "logSegmentEvent(payload)",
+        "arguments": "{\"segmentArgs.filters\":\"segmentFilters\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.select_filter"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 56,
+        "fileName": "app/react/mobile/hooks/useBranchSdk.ts",
+        "sample": "logSegmentEvent({ name, segmentArgs: { ...segmentArgs, userSessionId } })",
+        "arguments": "{\"segmentArgs.userSessionId\":\"userSessionId\",\"segmentArgs.segmentArgs.analytics\":\"analytics\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "name"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 189,
+        "fileName": "app/angular/services/modules/analytics/analyticsHelper.service.js",
+        "sample": "service.analytics.logSegmentEvent(eventName, {\n            ...analyticsPayload,\n            ...analyticExtras,\n          })",
+        "arguments": "{\"analyticsPayload\":\"ANY\",\"analyticExtras\":\"ANY\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "eventName"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 59,
+        "fileName": "app/react/components/recipeGrid/RecipeGridFilterDesktop.tsx",
+        "sample": "logSegmentEvent(payload)",
+        "arguments": "{\"segmentArgs.filters\":\"segmentFilters\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.select_filter"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 23,
+        "fileName": "app/react/pages/shop/ShopRecipesView.tsx",
+        "sample": "logSegmentEvent(\n        getShopViewSegmentLogEventPayload({\n          category: currentRecipeCategory,\n          departmentsLang: lang.departments,\n          params: queryParams,\n        })\n      )",
+        "arguments": "{\"segmentArgs.departmentsLang\":\"lang.departments\",\"segmentArgs.department_name\":\"category ? category.name : departmentsLang\",\"segmentArgs.department_type\":\"category?.level || category?.level === 0 ? `L${category.level + 1}` : 'L0'\",\"segmentArgs.filters.brandnames\":\"params.brand_names\",\"segmentArgs.filters.tags\":\"params.tags\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.view_department"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Segment.Analytics",
+        "lineNumber": 72,
+        "fileName": "app/react/components/shopHeader/ShopHeaderFilters.tsx",
+        "sample": "logSegmentEvent(payload)",
+        "arguments": "{\"segmentArgs.filters\":\"segmentFilters\",\"segmentData.page\":\"page\",\"segmentArgs.meta\":\"analyticsData\",\"segmentArgs.unataAppVersion \":\"unataAppVersion\",\"segmentArgs.unataMobileAppVersion\":\"unataMobileAppVersion\",\"segmentArgs.unataPageViewId\":\"unataPageViewId\"}",
+        "event": "store.select_filter"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 199,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', event, {\n    id: product.id,\n    name: product.name,\n    currency,\n    price,\n    value: price,\n    category,\n    list: logLocation,\n    items: [\n      {\n        item_id: product.id,\n        item_name: product.name,\n        price: product.base_price,\n        discount: product.sale_price ?? 0,\n        item_category: product.categories.length > 0\n        ? product.categories[product.categories.length - 1].name\n        : '',\n        location_id: product.fulfillment_retailer_store_id,\n        quantity: product.base_quantity,\n        item_list_id: cart?.id,\n      }\n    ]\n  })",
+        "arguments": "{\"id\":\"product.id\",\"name\":\"product.name\",\"currency\":\"currency\",\"price\":\"price\",\"value\":\"price\",\"category\":\"category\",\"list\":\"logLocation\",\"items.\":\"__ecma.Array.factory()\",\"items.[].item_id\":\"product.id\",\"items.[].item_name\":\"product.name\",\"items.[].price\":\"product.base_price\",\"items.[].discount\":\"product.sale_price ?? 0\",\"items.[].item_category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\",\"items.[].location_id\":\"product.fulfillment_retailer_store_id\",\"items.[].quantity\":\"product.base_quantity\",\"items.[].item_list_id\":\"cart.id\"}",
+        "event": "event"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 196,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferClick.event,\n    ...googlePayloads.logOfferClick.payload({ offer, location, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.click.actionField.list\":\"location\",\"ecommerce.click.offers.\":\"__ecma.Array.factory()\",\"ecommerce.click.offers.[].id\":\"offer.id\",\"ecommerce.click.offers.[].name\":\"offer.name\",\"ecommerce.click.promotions.\":\"__ecma.Array.factory()\",\"ecommerce.click.promotions.[].id\":\"offer.id\",\"ecommerce.click.promotions.[].name\":\"offer.name || offer.offer.name\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"offerClick\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 21,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logPageView.event,\n    ...googlePayloads.logPageView.payload({ page, title, preprocessedData }),\n  })",
+        "arguments": "{\"page\":\"page\",\"title\":\"title\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"pageview\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 44,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', action, {\n    eventCategory: category,\n    eventLabel: label,\n    eventValue: value,\n  })",
+        "arguments": "{\"action\":\"__ecma.String\",\"eventCategory\":\"category\",\"eventLabel\":\"label\",\"eventValue\":\"value\"}",
+        "event": "event"
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 233,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logCheckoutCompletion.event,\n    ...googlePayloads.logCheckoutCompletion.payload({ order, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.purchase.actionField.id\":\"order.id\",\"ecommerce.purchase.actionField.revenue\":\"order.estimated_totals.total\",\"ecommerce.purchase.actionField.tax\":\"order.estimated_totals.tax_total\",\"ecommerce.purchase.products\":\"GTMProductMap(order.order_items)\",\"ecommerce.checkout\":\"undefined\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"checkoutCompletion\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 99,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductClick.event,\n    ...googlePayloads.logProductClick.payload({ product, location, extData, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.click.actionField.list\":\"location\",\"ecommerce.click.products.\":\"__ecma.Array.factory()\",\"ecommerce.click.products.[].price\":\"product.sale_price || product.base_price\",\"ecommerce.click.products.[].category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\",\"ecommerce.click.products.[].\\\"id\\\"\":\"product.\\\"id\\\"\",\"ecommerce.click.products.[].\\\"name\\\"\":\"product.\\\"name\\\"\",\"ecommerce.click.products.[].\\\"ext_id\\\"\":\"product.\\\"ext_id\\\"\",\"ecommerce.click.products.[].pick.pick\":\"pick\",\"ecommerce.click.products.[].product\":\"import(\\\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\\\").StoreProduct\",\"extData\":\"extData\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"productClick\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 177,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferDetailsView.event,\n    ...googlePayloads.logOfferDetailsView.payload({ offer, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.detail.offers.\":\"__ecma.Array.factory()\",\"ecommerce.detail.offers.[].id\":\"offer.id\",\"ecommerce.detail.offers.[].name\":\"offer.name\",\"ecommerce.detail.promotions.\":\"__ecma.Array.factory()\",\"ecommerce.detail.promotions.[].id\":\"offer.id\",\"ecommerce.detail.promotions.[].name\":\"offer.name\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"offerDetail\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 256,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logFirstOrder.event,\n    ...googlePayloads.logFirstOrder.payload({ preprocessedData }),\n  })",
+        "arguments": "{\"preprocessedData.x\":\"x\"}",
+        "event": "\"firstOrder\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 372,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'checkoutOption', {\n    step,\n    option,\n  })",
+        "arguments": "{\"step\":\"step\",\"option\":\"option\"}",
+        "event": "\"checkoutOption\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 279,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'view_promotion', {\n    id: offer.id,\n    name: offer.name,\n    promotion_id: offer.id,\n    promotion_name: offer.name\n  })",
+        "arguments": "{\"id\":\"offer.id\",\"name\":\"offer.name\",\"promotion_id\":\"offer.id\",\"promotion_name\":\"offer.name\"}",
+        "event": "\"view_promotion\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 326,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'checkout', {\n    step,\n    option,\n  })",
+        "arguments": "{\"step\":\"step\",\"option\":\"option\"}",
+        "event": "\"checkout\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 215,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logCheckoutStep.event,\n    ...googlePayloads.logCheckoutStep.payload({ step, option, products, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.checkout.actionField.step\":\"step\",\"ecommerce.checkout.actionField.option\":\"option\",\"ecommerce.checkout.products\":\"GTMProductMap(products)\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"checkoutStep\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 352,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'purchase', {\n    id: order.id,\n  })",
+        "arguments": "{\"id\":\"order.id\"}",
+        "event": "\"purchase\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 168,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'select_item', {\n    list: location,\n    id: product.id,\n    name: product.name,\n    price: product.sale_price || product.base_price,\n    category:\n      product.categories.length > 0 ? product.categories[product.categories.length - 1].name : '',\n  })",
+        "arguments": "{\"list\":\"location\",\"id\":\"product.id\",\"name\":\"product.name\",\"price\":\"product.sale_price || product.base_price\",\"category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\"}",
+        "event": "\"select_item\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 23,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'page_view', {\n    page_location: page,\n    page_title: title,\n  })",
+        "arguments": "{\"page_location\":\"page\",\"page_title\":\"title\"}",
+        "event": "\"page_view\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 302,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'select_promotion', {\n    id: offer.id,\n    name: offer.name,\n    list: location,\n    promotion_id: offer.id,\n    promotion_name: offer.name\n  })",
+        "arguments": "{\"id\":\"offer.id\",\"name\":\"offer.name\",\"list\":\"location\",\"promotion_id\":\"offer.id\",\"promotion_name\":\"offer.name\"}",
+        "event": "\"select_promotion\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 137,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductRemoveFromCart.event,\n    ...googlePayloads.logProductRemoveFromCart.payload({\n      product,\n      logLocation,\n      preprocessedData,\n    }),\n  })",
+        "arguments": "{\"ecommerce.remove.actionField.list\":\"logLocation\",\"ecommerce.remove.products.\":\"__ecma.Array.factory()\",\"ecommerce.remove.products.[].price\":\"product.sale_price || product.base_price\",\"ecommerce.remove.products.[].category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\",\"ecommerce.remove.products.[].\\\"id\\\"\":\"product.\\\"id\\\"\",\"ecommerce.remove.products.[].\\\"name\\\"\":\"product.\\\"name\\\"\",\"ecommerce.remove.products.[].\\\"ext_id\\\"\":\"product.\\\"ext_id\\\"\",\"ecommerce.remove.products.[].pick.pick\":\"pick\",\"ecommerce.remove.products.[].product\":\"import(\\\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\\\").StoreProduct\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"productRemoveFromCart\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 73,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'ec:addImpression', { \n    id: product.id,\n    name: product.name,\n    price: product.sale_price || product.base_price,\n    category:\n      product.categories.length > 0 ? product.categories[product.categories.length - 1].name : '',\n    list: location,\n  })",
+        "arguments": "{\"id\":\"product.id\",\"name\":\"product.name\",\"price\":\"product.sale_price || product.base_price\",\"category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\",\"list\":\"location\"}",
+        "event": "\"ec:addImpression\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 79,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductDetailsView.event,\n    ...googlePayloads.logProductDetailsView.payload({ product, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.detail.products.\":\"__ecma.Array.factory()\",\"ecommerce.detail.products.[].price\":\"product.sale_price || product.base_price\",\"ecommerce.detail.products.[].category\":\"product.categories.length > 0 ? product.categories[product.categories.length - 1].name : \\\"\\\"\",\"ecommerce.detail.products.[].\\\"id\\\"\":\"product.\\\"id\\\"\",\"ecommerce.detail.products.[].\\\"name\\\"\":\"product.\\\"name\\\"\",\"ecommerce.detail.products.[].\\\"ext_id\\\"\":\"product.\\\"ext_id\\\"\",\"ecommerce.detail.products.[].pick.pick\":\"pick\",\"ecommerce.detail.products.[].product\":\"import(\\\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\\\").StoreProduct\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"productDetail\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 118,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductAddToCart.event,\n    ...googlePayloads.logProductAddToCart.payload({ product, logLocation, productSource, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.add.actionField.list\":\"logLocation\",\"ecommerce.add.actionField.productSource\":\"productSource\",\"ecommerce.add.products\":\"products\",\"ecommerce.purchase\":\"undefined\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"productAddToCart\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 28,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/init.js",
+        "sample": "globalThis.gtag('config', id, {\n    /** \n     * disables the built in page view event\n     * This is required in conjunction with disabling page change events in the admin portal\n     */\n    send_page_view: false  \n  })",
+        "arguments": "{\"\\\"config\\\"\":\"\\\"config\\\"\",\"id\":\"ANY\",\"send_page_view\":\"false\"}",
+        "event": ""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 61,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logProductImpression.event,\n    ...googlePayloads.logProductImpression.payload({ product, location, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.impressions.\":\"__ecma.Array.factory()\",\"ecommerce.impressions.[].price\":\"product.sale_price || product.base_price\",\"ecommerce.impressions.[].category\":\"product.categories?.length > 0 ? product.categories[product.categories?.length - 1].name : \\\"\\\"\",\"ecommerce.impressions.[].list\":\"location\",\"ecommerce.impressions.[].\\\"id\\\"\":\"product.\\\"id\\\"\",\"ecommerce.impressions.[].\\\"name\\\"\":\"product.\\\"name\\\"\",\"ecommerce.impressions.[].\\\"ext_id\\\"\":\"product.\\\"ext_id\\\"\",\"ecommerce.impressions.[].pick.pick\":\"pick\",\"ecommerce.impressions.[].product\":\"import(\\\"/home/ubuntu/install/hitesh_privado_testing/unata-web-frontend/widgets/enterprise-core/src/types/index\\\").StoreProduct\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"productImpressions\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 150,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'view_item', parameters)",
+        "arguments": "{\"parameters.currency\":\"currency\",\"parameters.value\":\"value\",\"parameters.items\":\"items\"}",
+        "event": "\"view_item\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 42,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logEvent.event,\n    ...googlePayloads.logEvent.payload({ category, action, label, value, preprocessedData }),\n  })",
+        "arguments": "{\"eventCategory\":\"category\",\"eventAction\":\"action\",\"eventLabel\":\"label\",\"eventValue\":\"value\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"logEvent\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 260,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleAnalytics4/functions.js",
+        "sample": "globalThis.gtag('event', 'ec:addImpression', {\n    id: offer.id,\n    name: offer.name,\n    list: location,\n  })",
+        "arguments": "{\"id\":\"offer.id\",\"name\":\"offer.name\",\"list\":\"location\"}",
+        "event": "\"ec:addImpression\""
+    },
+    {
+        "sinkId": "ThirdParties.SDK.Pixel.Google.TagManager",
+        "lineNumber": 159,
+        "fileName": "widgets/enterprise-core/legacyPackages/enterprise-services/analytics/services/GoogleTagManager/functions.js",
+        "sample": "globalThis.dataLayer.push({\n    event: googlePayloads.logOfferImpression.event,\n    ...googlePayloads.logOfferImpression.payload({ offer, preprocessedData }),\n  })",
+        "arguments": "{\"ecommerce.promoView.offers.\":\"__ecma.Array.factory()\",\"ecommerce.promoView.offers.[].id\":\"offer.id\",\"ecommerce.promoView.offers.[].name\":\"offer.name || offer.offer.name\",\"ecommerce.promoView.promotions.\":\"__ecma.Array.factory()\",\"ecommerce.promoView.promotions.[].id\":\"offer.id\",\"ecommerce.promoView.promotions.[].name\":\"offer.name || offer.offer.name\",\"preprocessedData.x\":\"x\"}",
+        "event": "\"offerImpressions\""
+    }
+]
