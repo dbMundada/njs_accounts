@@ -12,6 +12,7 @@ const firstTest = (dog) => {
     console.log(dog.attr2)
 };
 
+#dummy
 class BasicDog {
     attr1 = "mammal"
     attr2 = "dog"
