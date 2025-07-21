@@ -1,6 +1,5 @@
 // import moment from 'moment';
 
-
 // function firstPrint(someparam) {
 //     simplePrint(someparam);
 // }
